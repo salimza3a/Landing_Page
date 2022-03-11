@@ -1,0 +1,176 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #F9F9F9;
+        margin: 0 56px;
+    
+
+}
+/* Header and Navbar */
+header{
+    height: 107px;
+    padding: 42px 33px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div-logo{
+    display: flex;
+    align-items: center;
+}
+.div-logo h1{
+    margin-left: 8px;
+    font-size: 32px;
+    font-family: var(--OpenSansFont);
+    font-weight: 700;
+}
+.navbar ul{
+    display: flex;
+
+}
+.navbar ul li{
+    font-size: 18px;
+}
+.navbar ul li:not(:first-child){
+    margin-left: 40px;
+}
+
+.navbar ul li:first-child {
+    font-family: var(--OpenSansFont);
+    font-weight: 600;
+}
+
+.navbar ul li:not(:first-child) {
+    font-family: var(--RobotoFont);
+    font-weight: 600;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #303031;
+}
+
+.navbar ul li:last-child a {
+    font-weight: 800;
+    color: var(--GreenColor);
+}
+
+/* Main and Sections */
+
+
+/* First Section */
+
+
+.first{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first-part{
+    margin-right: 12px;
+}
+.first-part h2{
+    font-size: 70px;
+    font-family: var(--RobotoFont);
+    line-height: 80px;
+    margin-bottom: 24px;
+
+}
+.first-part p{
+    font-size:24px ;
+    font-weight: 400;
+    font-family: var(--OpenSansFont);
+    line-height: 32px;
+    color: #66645E;
+    margin-bottom: 49px;
+
+}
+
+.first-part button{
+    padding: 20px 24px;
+    background-color: var(--GreenColor);
+    color: var(--WhiteColor) ;
+    width: 219px;
+    height: 64px;
+    border: none;
+    border-radius: 8px;
+    font-family: var(--MontSerat);
+    font-weight: 700;
+}
+
+
+
+.first-part-img {
+    margin-top: 46px;
+    margin-right: 13px;
+}
+
+
+
+/* Second Section */
+.second{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+    margin-top: 187.35px;
+
+
+ 
+}
+
+.second-part h2{
+    font-family: var(--RobotoFont);
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    margin-bottom: 24px;
+border: 1px solid green;
+}
+
+.second-part p {
+ font-family: var(--MontSerat);
+ font-weight: 400;
+ font-size: 18px;
+ line-height: 26px;
+ border: 1px solid blue;
+ text-align: center;
+ margin-bottom: 48px;
+ padding: 0 260px;
+}
+ 
+.second-part-imgs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.image-1{
+    width: 427px;
+    height: 340px;
+    background-color: greenyellow;
+
+   flex-basis: calc(100% - 100% * 2/3 - 23px);
+  
+}
+
+.image-2{
+    width: 427px;
+    height: 340px;
+    background-color:greenyellow;
+ 
+    flex-basis: calc(100% - 100% * 2/3 - 23px);
+
+ 
+
+}
+
+.image-3{
+    width: 427px;
+    height: 340px;
+    background-color: greenyellow;
+  
+   flex-basis: calc(100% - 100% * 2/3 - 23px);
+
+}
