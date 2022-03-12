@@ -2,7 +2,11 @@
     --RobotoFont: 'Roboto', sans-serif; 
     --OpenSansFont: 'Open Sans', sans-serif;
     --MontSerat: 'Montserrat', sans-serif;
+    --NotoSans: 'Noto Sans Mono', monospace;
 
+    /* Colors */
     --GreenColor: #71A894;
     --WhiteColor: #FFFFFF;
+    --BlackColor: #303031;
+    --GrayColor: #66645E;
 }
