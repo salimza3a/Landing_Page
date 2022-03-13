@@ -1,4 +1,4 @@
-*{
+ *{
     box-sizing: border-box;
 }
 body{
@@ -139,6 +139,7 @@ header{
  margin-bottom: 48px;
  height: 52px;
  color: var(--BlackColor);
+ padding: 0 18%;
 }
  
 .second-part-imgs{
@@ -237,6 +238,8 @@ header{
     flex-direction: column;
     justify-content: space-around;
    flex-basis: 30%;
+   width: 484px;
+   height: 400px;
 
     
 }
@@ -296,25 +299,123 @@ header{
 .part-4{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+
 }
 
 .jassir{
-  
-    margin-top: 193px;
+    flex-basis: calc(100% - 80px -876px);
+    width: 484px;
+    height: 400px;
+    border: 4px solid #303031;
+    border-radius: 16px;
     margin-left: 80px;
+    margin-top: 193px;
+    padding: 32px 40px;
+
+
 }
+
 
 
 
 .something{
     display: flex;
 }
+.something img{
+    width: 64px;
+    height: 64px;
+    border-radius:50% 50%;
+    object-fit: cover;
+}
+.values{
+    margin-left: 22px;
+}
+.values h2{
+    font-family: var(--MontSerat);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--BlackColor);
+}
+.values p {
+    font-family: var(--MontSerat);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--GrayColor);
+}
+
+.paragraph {
+    margin-top: 28px;
+    font-family: var(--MontSerat);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--BlackColor)
+}
+.commit-shares {
+    flex-basis: calc(100% - 742px - 54px);
+    display: flex;
+    margin-top: 24px;
+    
+}
+
+.commit > span {
+    font-family: var(--MontSerat);
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--GrayColor);
+    text-transform: uppercase;
+
+}
+.commit > h3{
+    font-size: 24px;
+    line-height: 32px;
+    font-family: var(--MontSerat);
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.shares {
+    margin-left: 74px;
+
+}
+.shares >  span {
+    font-family: var(--MontSerat);
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--GrayColor);
+    text-transform: uppercase;
+
+}
+
+.shares > h3 {
+    font-family: var(--MontSerat);
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--BlackColor);
+    text-transform: uppercase;
+
+}
+.button {
+    margin-top: 32px;
+    font-size: 24px;
+    line-height: 32px;
+    font-family: var(--MontSerat);
+    font-weight: 500;
+    background-color: #303031;
+    color: var(--WhiteColor);
+    text-align: center;
+    border-radius: 16px;
+    padding: 12px 24px;
+    text-decoration: none;
+}
+
 
 .LikefutureInfo{
     flex-basis:50% ;
     margin-top: 170px;
     margin-right: 54px;
+    margin-left: 178px;
 }
 .LikefutureInfo h2 {
     font-size: 48px;
@@ -332,6 +433,293 @@ header{
     color: var(--BlackColor);
  
    
+}
+
+/* Part 5 under section 2 */
+.part-5 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.LikefutureInfo2{
+    margin-top: 242px;
+    margin-left: 54px;
+    margin-right: 178px;
+}
+.LikefutureInfo2 h2 {
+    font-size: 48px;
+    line-height: 64px;
+    font-family: var(--RobotoFont);
+    font-weight: 800;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.LikefutureInfo2 p {
+    font-size: 18px;
+    line-height: 26px;
+    font-family: var(--MontSerat);
+    font-weight: 400;
+    color: var(--BlackColor);
+ 
+   
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    margin-right: 61px;    
+    margin-top: 199px;
+    padding: 11px 9px 24px 9px ;
+}
+
+
+.box-1 {
+     width: 631px;
+     height: 164px;
+     border: 4px solid #303031;
+     border-radius: 16px;
+}
+.three-content {
+    display: flex;
+    align-items: center;
+    
+    
+}
+.two {
+    display: flex;
+    flex-direction: column;
+    margin: 28px 93px 24px 59px;
+    flex-basis: 64%;
+
+}
+.two h2 {
+     font-family: var(--MontSerat);
+     font-size: 18px;
+     font-weight: 700;
+     color: var(--BlackColor);
+     line-height: 24px;
+}
+.two p {
+    margin-top: 16px;
+    margin-bottom: 24px;
+    font-size: 16px;
+    font-family: var(--MontSerat);
+    line-height: 24px;
+    color: var(--BlackColor);
+    font-weight: 500;
+}
+
+.three-content button {
+    color: var(--WhiteColor);
+    text-transform: uppercase;
+    background-color: var(--GreenColor) ;
+    width: 82px;
+    height: 32px;
+    border-radius: 40px;
+    font-family: var(--MontSerat);
+    font-weight: 500;
+    margin: 28px 67px 112px 0;
+    border: none;
+}
+
+.row {
+    margin-top: 13px;
+    display: flex;
+    flex-direction: row;
+}
+
+.box-2 {
+    width: 381px;
+    height: 288px;
+    border: 4px solid #303031;
+    border-radius: 16px;
+    margin-right: 12px;
+    background-color: #F3F0EA;
+    padding: 32px 0 0 40px;
+}
+
+.box-2 h3 {
+     font-family: var(--MontSerat);
+     font-size: 24px; 
+     line-height: 32px;
+     color: var(--BlackColor);
+     margin-bottom: 24px;
+}
+
+.person {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.person img {
+    border-radius: 50%;
+}
+
+.person h3 {
+    margin: 8px 0 8px 16px;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: var(--MontSerat);
+    font-weight: 600;
+    
+}
+
+
+.box-3 {
+    width: 240px;
+    height: 288px;
+    border: 4px solid #71A894;
+    border-radius: 16px;
+    text-align: center;
+    
+}
+
+.box-3 img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin-top: 24px;
+}
+
+.box-3 h3 {
+    font-size: 20px;
+    line-height: 24px;
+    font-family: var(--MontSerat);
+    color: var(--BlackColor);
+    margin-top: 16px;
+    margin-bottom: 4px;
+    font-weight: 700;
+}
+
+.box-3 h4 {
+    font-family: var(--MontSerat);
+    font-size: 16px; 
+    line-height: 24px;
+    font-weight: 500;
+    color: var(--GrayColor);
+}
+
+.box-3 h5 {
+    font-family: var(--MontSerat);
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 16px;
+    margin: 16px
+}
+
+
+.box-3 button {
+    background-color: var(--BlackColor);
+    padding: 12px 24px;
+    border-radius: 16px;
+    width: 192px;
+    height: 44px;
+    color: var(--WhiteColor);
+    font-family:var(--MontSerat);
+    font-weight: 500;
+}
+
+
+/* Third Section */
+
+section.third {
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+}
+section.third>h2{
+    font-family: var(--RobotoFont);
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+    margin-top: 184px;
+    margin-bottom: 24px;
+}
+section.third>p{
+    font-family: var(--MontSerat);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+     padding:  0 18%
+}
+
+
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+    margin-top: 48px;
+}
+
+
+
+.boxes-2 {
+    margin-left: 52px;
+    flex-basis: 33.3%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+  padding-top: 28px;
+
+}
+.first-box, .second-box, .third.box{
+    display: flex;
+    flex-direction: column;
+}
+.boxes-2>h2 {
+    font-size: 18px;
+    line-height: 24px;
+    font-family: var(--MontSerat);
+    font-weight: 700;
+    color: var(--BlackColor);
+
+}
+.boxes-2>p {
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--BlackColor);
+    font-family: var(--MontSerat);
+    font-weight: 500;
+    margin-top: 16px;
+
+}
+.times {
+   margin: 28px 32px;
+
+
+}
+.times>h5 {
+   
+    border-radius: 40px;
+    background-color: var(--GreenColor);
+    padding: 4px 8px;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: var(--MontSerat);
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.times>h6 {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: var(--MontSerat);
+    font-weight: 600;
+    color: var(--BlackColor);
+}
+
+
+
+.third-box {
+    margin-right: 52px;
+}
+
+
+
+.times{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 
