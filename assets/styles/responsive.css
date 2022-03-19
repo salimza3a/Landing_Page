@@ -1,0 +1,264 @@
+@media screen and (min-width:1200px) {
+ 
+}
+
+
+@media screen and (max-width: 1024px) {
+    .div-logo h1 {
+        margin-left: 4px;
+        font-size: 20px;
+    }
+    .navbar ul li {
+        font-size: 14px;
+   
+    }
+   
+   
+    .navbar ul li:not(:first-child) {
+        margin-left: 20px;
+    }
+    .first-part h2 {
+        font-size: 47px;
+        line-height: 55px;
+        margin-bottom: 24px;
+   
+    }
+   
+    .first-part p {
+        font-size: 23px;
+        margin-bottom: 40px;
+   
+    }
+    .second-part h2 {
+      
+        font-size: 40px;
+    }
+   
+    .second-part p {
+       
+        font-size: 20px;
+    }
+    
+    .image {
+        margin-top: 20px;
+    }
+    .futureInfo h2 {
+        font-size: 38px;
+        line-height: 38px;
+
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+   
+    .futureInfo p {
+        font-size: 23px;
+        line-height: 26px;
+
+   
+   
+    }
+    .LikefutureInfo h2 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+   
+    .LikefutureInfo p {
+        font-size: 25px;
+        line-height: 26px;
+
+   
+    }
+    section.third>h2 {
+        font-size: 32px;
+  
+    }
+   
+    section.third>p {
+        font-size: 20px;
+        line-height: 22px;
+
+    }
+    .times>h5 {
+
+        font-size: 12px;
+        line-height: 20px;
+
+    }
+   
+    .times>h6 {
+        font-size: 14px;
+        line-height: 18px;
+
+    }
+   
+    .fourth-part h2 {
+        font-family: var(--RobotoFont);
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 54px;
+
+    }
+    
+    .fourth-part p {
+        font-size: 18px;
+        line-height: 20px;
+
+    }
+    .fourth-part button {
+        padding: 10px 12px;
+        font-size: 12px;
+ 
+    
+    
+    }
+    .part-5 {
+        display: block;
+    }
+    .box-1 {
+        max-width: 100%;
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .div-logo h1 {
+        display: none;
+    }
+    .navbar ul li {
+        display: none;
+   
+    }
+   .hamburger-menu {
+       display: block;
+   }
+   
+   
+    .first-part h2 {
+        font-size:35px;
+        line-height: 40px;
+   
+    }
+   
+    .first-part p {
+        font-size: 23px;
+   
+    }
+    
+    .futureInfo h2 {
+        font-size: 33px;
+        line-height: 30px;
+
+
+    }
+   
+    .futureInfo p {
+        font-size: 21px;
+        line-height: 19px;
+
+   
+    }
+    
+    .second-part-imgs{
+          margin-right: 15px;  
+    }
+    .LikefutureInfo h2 {
+        font-size: 35px;
+        line-height: 30px;
+    }
+   
+    .LikefutureInfo p {
+        font-size: 23px;
+        line-height: 20px;
+
+   
+    }
+    .LikefutureInfo2 h2{
+        font-size: 40px;
+    }
+    
+    .image {
+        margin-top: 23px;
+    }
+    .part-3 {
+        display: block;
+    }
+    .part-4 {
+        flex-direction: column-reverse;
+
+    }
+    .jassir{
+        margin-right: 30px;
+    }
+    .part-5 {
+        flex-direction: column;
+    }
+    section.third>h2 {
+        font-size: 26px;
+  
+    }
+   
+    section.third>p {
+        font-size: 18px;
+        line-height: 22px;
+
+    }
+
+    .boxes {
+        display: block;
+        margin-top: 10px;
+    }
+    .fourth-part h2{
+        font-size: 35px;
+    }
+   
+  .fourth {
+      flex-direction: column-reverse;
+  }
+  .div-logo h2{
+    font-size: 25px;
+}
+  nav ul li {
+display: none; 
+ }
+ 
+}
+
+@media screen and (max-width: 480px) {
+    .first {
+        flex-direction: column-reverse;
+        
+    }
+
+    .second-part h2 {
+        font-size: 23px;
+        line-height: 0;
+    }
+    .second-part p {
+        font-size: 20px;
+        line-height: 15px;
+    }
+    .futureInfo h2{
+        font-size: 20px;
+        line-height: 15px;
+    }
+    .futureInfo p {
+        font-size: 18px;
+    }
+
+    .LikefutureInfo2 h2 {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .LikefutureInfo2 {
+        font-size: 18px;
+    }
+    .row {
+        flex-direction: column;
+    }
+    .box-2{
+        margin-bottom: 10px
+    }
+    section.third > h2 {
+        font-size: 20px
+    }
+}

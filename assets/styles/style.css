@@ -11,7 +11,7 @@
  /* Header and Navbar */
  header,
  footer {
-     height: 107px;
+     min-height: 107px;
      padding: 42px 33px;
      display: flex;
      justify-content: space-between;
@@ -20,9 +20,10 @@
 
  .div-logo {
      display: flex;
+     flex-wrap: wrap;
      align-items: center;
  }
-
+ 
  .div-logo h1 {
      margin-left: 8px;
      font-size: 32px;
@@ -32,12 +33,27 @@
 
  .navbar ul {
      display: flex;
+    flex-wrap: wrap;
+ }
+ .hamburger-menu {
+     background-color: transparent;
+     border: none;
+     font-size: 18px;
+     transition: all .2s;
+     cursor: pointer;
+     display: none;
+
+ }
+ .hamburger-menu:hover {
+     transform: scale(.95);
 
  }
 
  .navbar ul li {
      font-size: 18px;
+
  }
+
 
  .navbar ul li:not(:first-child) {
      margin-left: 40px;
@@ -78,6 +94,7 @@
  .first-part {
      margin-right: 12px;
      margin-left: 56px;
+     flex: 2;
  }
 
  .first-part h2 {
@@ -99,7 +116,7 @@
  }
 
  .first-part button {
-     padding: 20px 24px;
+     
      background-color: var(--GreenColor);
      color: var(--WhiteColor);
      width: 219px;
@@ -109,15 +126,25 @@
      font-family: var(--MontSerat);
      font-weight: 700;
      cursor: pointer;
+     font-size: 18px;
+     line-height: 24px;
+
+
+     
 
  }
 
 
 
- .first-part-img {
+ .first-part-img img {
      margin-top: 46px;
      margin-right: 13px;
+     flex: 1;
+     max-width: 100%;
+      height: auto;
+     object-fit: cover;
  }
+
 
 
 
@@ -143,7 +170,6 @@
      font-size: 48px;
      line-height: 64px;
      margin-bottom: 24px;
-     height: 64px;
  }
 
  .second-part p {
@@ -151,7 +177,6 @@
      font-size: 18px;
      line-height: 26px;
      margin-bottom: 48px;
-     height: 52px;
      color: var(--BlackColor);
      padding: 0 18%;
  }
@@ -161,6 +186,10 @@
      flex-direction: row;
      justify-content: space-between;
      margin: 0 56px;
+    flex-wrap: wrap;
+    flex: 1;
+    
+
   
 
  }
@@ -176,15 +205,14 @@
      background-color: var(--WhiteColor);
      box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
      border-radius: 8px;
-     flex-basis: 33.333%;
+     flex:1;
 
 
 
  }
-
- .image-2 {
-     margin: 0 23px;
- }
+.image-2 {
+    margin: 0 23px;
+}
 
  .image img {
      margin: 64px 170px 0 170px;
@@ -217,12 +245,13 @@
      display: flex;
      align-items: center;
      margin: 0 118px 0 56px;
+     flex-wrap: wrap;
  }
 
  .futureInfo {
      margin-top: 193px;
      margin-right: 138px;
-     flex-basis: 70%;
+     flex:1;
  }
 
  .futureInfo h2 {
@@ -255,9 +284,8 @@
      display: flex;
      flex-direction: column;
      justify-content: space-around;
-     flex-basis: 30%;
-     width: 484px;
-     height: 400px;
+     flex: 1;
+  
 
 
  }
@@ -328,9 +356,6 @@
  }
 
  .jassir {
-     flex-basis: calc(100% - 80px -876px);
-     width: 484px;
-     height: 400px;
      border: 4px solid #303031;
      border-radius: 16px;
      margin-left: 80px;
@@ -345,6 +370,7 @@
 
  .something {
      display: flex;
+
  }
 
  .something img {
@@ -452,7 +478,6 @@
 
 
  .LikefutureInfo {
-     flex-basis: 50%;
      margin-top: 170px;
      margin-right: 54px;
      margin-left: 178px;
@@ -480,13 +505,13 @@
  /* Part 5 under section 2 */
  .part-5 {
      display: flex;
-     justify-content: space-between;
  }
 
  .LikefutureInfo2 {
      margin-top: 242px;
      margin-left: 54px;
      margin-right: 178px;
+     flex: 1;
  }
 
  .LikefutureInfo2 h2 {
@@ -518,15 +543,13 @@
 
 
  .box-1 {
-     width: 631px;
-     height: 164px;
      border: 4px solid #303031;
      border-radius: 16px;
+     flex: 1;
  }
 
  .three-content {
      display: flex;
-     align-items: center;
 
 
  }
@@ -578,8 +601,7 @@
  }
 
  .box-2 {
-     width: 381px;
-     height: 288px;
+    flex: 2;
      border: 4px solid #303031;
      border-radius: 16px;
      margin-right: 12px;
@@ -616,8 +638,7 @@
 
 
  .box-3 {
-     width: 240px;
-     height: 288px;
+    flex: 1;
      border: 4px solid #71A894;
      border-radius: 16px;
      text-align: center;
@@ -706,6 +727,7 @@
      display: flex;
      flex-direction: row;
      margin-top: 48px;
+
  }
 
 
@@ -719,12 +741,6 @@
 
  }
 
- .first-box,
- .second-box,
- .third.box {
-     display: flex;
-     flex-direction: column;
- }
 
  .boxes-2>h2 {
      font-size: 18px;
@@ -817,9 +833,7 @@
     align-items: center;
     margin: 44px 56px 120px 56px;
 }
-.fourth-part {
-    flex-basis: 48.4%;
-}
+
 .fourth-part h2 {
     font-family: var(--RobotoFont);
     font-weight: 800;
@@ -846,20 +860,21 @@
     font-weight: 700;
     font-size: 18px;
     line-height: 24px;
+    border: none;
     cursor: pointer;
 
 
 }
 
 .fourth-part-img {
-    flex-basis: 51.51%;
+    flex: 1 0 52%;
     margin-left: 40px;
    
 }
 
 .fourth-part-img img {
-    width: 100%;
-    height: 100%;
+    max-width: 100%;
+    height: auto;
 }
  /* footer */
 
